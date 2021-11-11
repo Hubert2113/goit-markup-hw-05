@@ -72,6 +72,14 @@ body {
   color: #2196f3;
 }
 
+.nav-agency{
+  color: #2196f3;
+}
+
+.nav-portfolio{
+  color: #2196f3
+}
+
 .header-contact {
   display: flex;
   justify-content: space-between;
@@ -507,7 +515,7 @@ body {
 }
 
 .item-mask{
-  width: 370px;
+  width: 368px;
   height: 294px;
   overflow: hidden;
   position: relative;
@@ -586,7 +594,7 @@ body {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms linear;
   opacity: 1;
 }
 
