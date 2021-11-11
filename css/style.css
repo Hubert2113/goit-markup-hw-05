@@ -576,14 +576,14 @@ body {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
   opacity: 1;
-  transition: opacity 1s linear;
+  transition: opacity 250ms linear;
 }
 
 .is-hidden {
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
-  transition: opacity 1s linear, visability 1s linear;
+  transition: opacity 250ms linear, visability 250ms linear;
 }
 
 .modal {
