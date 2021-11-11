@@ -122,6 +122,8 @@ body {
   justify-content: center;
   align-items: center;
   background-image: url("../images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .header-studio-title {
@@ -300,7 +302,7 @@ body {
   border-radius: 100%;
   justify-content: center;
   align-items: center;
-  color: #757575;
+  color: #afb1bb;
 
   transition-property: background-color color;
   transition-duration: 250ms;
@@ -574,13 +576,14 @@ body {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
   opacity: 1;
-  transition: opacity 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 1s linear;
 }
 
 .is-hidden {
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
+  transition: opacity 1s linear, visability 1s linear;
 }
 
 .modal {
@@ -594,12 +597,6 @@ body {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-  transition: opacity 250ms linear;
-  opacity: 1;
-}
-
-.is-hidden .modal{
-  opacity: 0;
 }
 
 .close-btn {
