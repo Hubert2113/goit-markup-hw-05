@@ -600,6 +600,9 @@ body {
 }
 
 .close-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: absolute;
   right: 8px;
   top: 8px;
