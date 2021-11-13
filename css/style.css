@@ -583,7 +583,7 @@ body {
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
-  transition: opacity 250ms linear, visability 250ms linear;
+  transition: opacity 250ms linear, visibility 250ms linear;
 }
 
 .modal {
